@@ -1,4 +1,4 @@
-# Python
+# Python > venv
 
 ## Pythonインストール
     https://www.python.org/downloads/ から指定のバージョンをインストール
