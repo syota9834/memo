@@ -66,6 +66,7 @@ label.pack()
 # イベントループを開始
 root.mainloop()
 ```
+サンプルコードは`basic_window.py`を参照
 
 ## 4. メインウィンドウ
 
@@ -505,7 +506,7 @@ messagebox.showerror(
 ```
 
 ## 17. 実用例
-入力した文字列をLabelに表示
+入力した文字列をLabelに表示。
 ```python
 import tkinter as tk
 
@@ -543,6 +544,7 @@ label.pack()
 
 root.mainloop()
 ```
+サンプルコードは`input_text.py`を参照。
 ### 処理の流れ
 Entryに文字を入力  
         ↓  
@@ -610,15 +612,3 @@ set() | 値を設定
 insert() | 値を挿入
 delete() | 値を削除
 bind() | イベントを登録
-
-## 21. 実行サンプル
-サンプルコードは以下に保存。
-```
-examples/
-├── basic_window.py
-├── widgets.py
-├── layout.py
-├── event.py
-├── input_text.py
-└── file_dialog.py
-```
